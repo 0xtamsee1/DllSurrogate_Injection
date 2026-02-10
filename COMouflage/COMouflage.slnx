@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="COMouflage.vcxproj" Id="4112dc52-ec83-4869-8937-6f4013092e44" />
+</Solution>
