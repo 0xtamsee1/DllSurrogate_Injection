@@ -66,7 +66,7 @@ int wmain(int argc, wchar_t* argv[]) {
 	}
 
 	
-		// STEP 1: Create AppID registry key for DLL Surrogate Configuration.
+	// STEP 1: Create AppID registry key for DLL Surrogate Configuration.
 	// The AppID key is used to specify the DLL surrogate for our COM object.
 	std::wstring AppIDKey = LR"(Software\\Classes\\AppID\\)" + std::wstring(CLSID_STR);
 
@@ -99,7 +99,7 @@ int wmain(int argc, wchar_t* argv[]) {
 
 
 
-	// STEP 3: Initialize COM Susbystem in the current process.
+	// STEP 3: Initialize COM Subsystem in the current process.
 	// CoInitializeEx is called with COINIT_APARTMENTTHREADED to initialize the COM library for use in a single-threaded apartment (STA) model.
 	// This is necessary for COM operations to work correctly in the current process.
 	HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
